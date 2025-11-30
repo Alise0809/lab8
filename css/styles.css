@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0cfb1;
+    color: #583a11;
+}
+nav a:hover {
+    color: #ff6b6b;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ebcf55;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;      
+  align-items: center;        
+  text-align: center;          
+  margin-bottom: 20px;
+}
+
+.book-item img {
+  max-width: 300px;
+  height: 400px;                
+  object-fit: cover;
+  margin-bottom: 10px;
+
+}
+
+.book-item h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.book-item p {
+  margin: 5px 0;
+}
