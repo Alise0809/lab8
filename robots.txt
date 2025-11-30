@@ -3,4 +3,4 @@ Disallow: /css/
 Disallow: /js/
 Disallow: /images/
 Allow: /
-Sitemap: http://github.com/Alise0809/lab8/sitemap.xml
+Sitemap: https://Alise0809.github.io/lab8/sitemap.xml
